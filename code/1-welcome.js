@@ -21,5 +21,5 @@ function questionnaire() {
    let age = prompt ('How old are you?')
    age = Number(age)
    age = age+1
-   alert('You will be' + age +'on your next birthday')
+   alert('You will be ' + age +' on your next birthday')
 }
