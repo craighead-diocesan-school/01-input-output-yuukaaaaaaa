@@ -3,6 +3,7 @@
 // ####################################
 
 function madLibs() {
+    // Ask the words to make a sentense 
     alert('Give me an exclamation')
     let exclamation = prompt
     alert('Give me an adverb')
@@ -11,6 +12,6 @@ function madLibs() {
     let noun = prompt()
     alert('Give me an adjective')
     let adjective = prompt()
-    alert(exclamation + '!' + 'he said' + adverb+ 'as he jumped into his convertible'+ noun +'and drove off with his'+ adjective+'wife.')
+    alert(exclamation + '!' + 'he said' + adverb + 'as he jumped into his convertible'+ noun +'and drove off with his'+ adjective+'wife.')
     
 }

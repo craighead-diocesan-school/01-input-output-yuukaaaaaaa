@@ -3,6 +3,7 @@
 // ####################################
 
 function nonMaoriMihi() {
+  // Ask questions.
   alert('Non-Māori Mihi')
   alert('This program will help you build a basic mihi.')
   alert("First, you'll be asked a series of questions, then your mihi will be ready.")
@@ -15,8 +16,8 @@ function nonMaoriMihi() {
   let river = prompt()
   alert("What's your hometown")
   let hometown = prompt()
-    // more questions and answers here
-
+    
+  // Make non maori mihi based on the answer of the question.
   alert('Your mihi:')
   alert('Kei te mihi au ki a' + mountain)
   alert('Kei te mihi au ki a' + river)
